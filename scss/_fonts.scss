@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('../fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/MuseoSans-500.otf')  format('opentype'),
+     url('../fonts/MuseoSans-500.woff') format('woff'), 
+     url('../fonts/MuseoSans-500.ttf')  format('truetype'), 
+     url('../fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'AvenirLTStd-Medium';
+  src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  
+       url('../fonts/AvenirLTStd-Medium.otf')  format('opentype'),
+       url('../fonts/AvenirLTStd-Medium.woff') format('woff'), url('AvenirLTStd-Medium.ttf')  format('truetype'), 
+       url('../fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.header {
+  @include museosans;
+}
+
+
+.container {
+  @include avenir;
+}
+
+.banner1 {
+  @include avenir;
+}
+
+
+.rightfont {
+  @include avenir;
+}
+
+
+.teampanel {
+  @include avenir;
+}
+
+.workwithus {
+  @include museosans;
+}
+
+ .footer {
+  @include museosans;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icons/stars/icomoon.eot?hcpkli');
+  src:  url('../fonts/icons/stars/icomoon.eot?hcpkli#iefix') format('embedded-opentype'),
+    url('../fonts/icons/stars/icomoon.ttf?hcpkli') format('truetype'),
+    url('../fonts/icons/stars/icomoon.woff?hcpkli') format('woff'),
+    url('../fonts/icons/stars/icomoon.svg?hcpkli#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-star-full:before {
+  content: "\e9d9";
+  font-size: 12px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+
+.icon-star-full:after {
+  content: "\e9d9";
+  font-size: 12px;
+  vertical-align: middle;
+  color: #ffffff;
+}

@@ -1,0 +1,35 @@
+@mixin clearfix() {
+  &::after {
+    content: '';
+    overflow: hidden;
+    display: table;
+    clear: both;
+  }
+}
+
+
+@mixin maxwidth() {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+@mixin maxwidth2() {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+@mixin headerbuttons() {
+  float: left; 
+  padding-top: 35px;
+}
+
+@mixin museosans() {
+  font-family: 'MuseoSans-500',sans-serif;
+  font-weight: normal;
+}
+
+@mixin avenir() {
+  font-family: 'AvenirLTStd-Medium',sans-serif;
+  font-weight: normal;
+}

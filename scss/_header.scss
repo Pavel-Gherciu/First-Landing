@@ -1,0 +1,52 @@
+.logoposition {
+  padding-top: 27px; 
+  padding-bottom: 27px; 
+  float:left;
+}
+
+.logo {
+  text-decoration: none; 
+  color: $header-text-color; 
+  letter-spacing: 1px; 
+  font-size: 30px;
+}
+
+.headerlist {
+  float: right;
+}
+
+.labelbutton {
+  @include headerbuttons;
+  margin-right: 45px; 
+}
+
+.labelbutton2 {
+  @include headerbuttons;
+  margin-right: 25px;
+}
+
+.labelbutton3 {
+  @include headerbuttons;
+  color: $text-color1; 
+  font-size: 14px
+}
+
+
+.label {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: $header-text-color;
+  text-decoration: none;
+}
+
+
+.signup {
+  padding: 15px 35px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: $text-color2;
+  border-width: 30px;
+  text-align: center;
+  vertical-align: middle;
+  color: $text-color1;
+}

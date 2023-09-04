@@ -1,0 +1,62 @@
+.teampanel {
+  background-color: $text-color2;
+  box-sizing: border-box;
+}
+
+.teamtitle {
+  padding-top: 57px;
+  font-size: 44px;
+  color: $text-color1;
+  text-align: center;
+}
+
+.teamcontainer {
+  padding-top: 100px; 
+  text-align: center;
+}
+
+.member {
+  display: inline-block; 
+  margin-right: 70px;
+}
+
+.member2 {
+  display: inline-block; 
+}
+
+
+.memberimg {
+  border-radius: 75px;
+  width: 150px;
+  height: 150px;
+
+}
+
+
+.membername {
+  font-weight: bold;
+  font-size: 18px;
+  color: $text-color1;
+}
+
+
+.membertitle{
+  font-style: italic;
+  font-size: 18px;
+  color: $text-color1;
+  font-weight: lighter;
+}
+
+.worklink {
+  padding-top: 120px; 
+  padding-bottom: 75px;
+}
+
+.workwithus {
+  text-align: center; 
+  font-size: 14px; 
+  color: $text-color1;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,81 @@
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.maxwidth {
+  @include maxwidth;
+}
+
+.banner1 {
+  padding: 100px 50px 100px;
+  background-image: url('../images/banner1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+
+.container {
+  @include maxwidth2;
+  padding-top: 403px; 
+  text-align: center; 
+  color: $text-color1; 
+  position: relative; 
+  font-size: 44px; 
+  line-height: 28px;
+}
+
+.container1 {
+  @include maxwidth2;
+  font-size: 20px;
+  line-height: 28px;
+  color: $text-color1;
+  text-align: center;
+  padding-top: 30px
+}
+
+.container2 {
+  font-size: 44px;
+  line-height: 28px;
+  color: $text-color2;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+.about {
+  @include maxwidth2;
+  font-size: 20px;
+  line-height: 28px;
+  color: $text-color3;
+  text-align: center;
+  padding-top: 32px; 
+  padding-bottom: 73px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  vertical-align: top;
+}
+
+
+@import "header";
+@import "teampanel";
+@import "footer";
